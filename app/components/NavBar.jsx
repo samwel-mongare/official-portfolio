@@ -5,18 +5,20 @@ import Logo from "./Logo"
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 import DesktopMenu from "./DesktopMenu";
 import MobileMenu from "./MobileMenu";
+import { usePathname } from "next/navigation";
 
 const NavBar = () => {
   const [ mode, setMode ] = useThemeSwitcher();
   const [ isOpen, setIsOpen ] = useState(false);
+  const pathname = usePathname();
 
   const handleClick = () => {
     setIsOpen(!isOpen);
   }
 
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10
-    lg:px-16 md:px-12 sm:px-8">
+    <header className={`${pathname === "/" ? 'hidden' : 'flex'} w-full px-32 py-8 font-medium items-center justify-between dark:text-light relative z-10
+    lg:px-16 md:px-12 sm:px-8`}>
 
     <button className="flex-col justify-center items-center hidden lg:flex" onClick={handleClick}>
       <span className={`bg-dark dark:bg-light transition-all duration-300 ease-out block h-0.5 w-6 rounded-sm 

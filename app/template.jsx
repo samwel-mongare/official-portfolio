@@ -21,6 +21,7 @@ export default function Template({ children }) {
       animate="enter"
       exit="exit"
       variants={variants}
+      transition={{ ease: "easeInOut" }}
       className="flex items-center text-dark w-full min-h-screen dark:text-light"
     >
       {children}
