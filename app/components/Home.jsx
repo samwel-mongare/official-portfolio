@@ -8,12 +8,12 @@ import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
 import HireMe from '@/components/HireMe';
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
-// import TransitionEffect from '@/components/TransitionEffect';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const HomePage = () => {
   return (
     <>
-      {/* <TransitionEffect /> */}
+      <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className='pt-0 md:pt-16 sm:pt:8'>
           <div className="flex items-center justify-between w-full lg:flex-col">
