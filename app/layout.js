@@ -1,9 +1,8 @@
-// import Footer from '@/components/Footer';
-// import NavBar from '@/components/NavBar';
-import '@/app/globals.css'
+import '@/globals.css'
 // import { AnimatePresence } from 'framer-motion';
 import { Montserrat } from "next/font/google";
-import Head from 'next/head';
+import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 
 const montserrat = Montserrat(
   {
@@ -21,8 +20,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <script id='theme-switcher' strategy="beforeInteractive">
+      <body>
+        <main className={`${montserrat.variable} font-mont bg-light w-full min-h-screen dark:bg-dark`}>
+          <NavBar />
+          {/* <AnimatePresence mode='wait'> */}
+            {children}
+          {/* </AnimatePresence> */}
+          <Footer />
+        </main>
+        {/* <script id='theme-switcher' strategy="beforeInteractive">
         {`
             if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
               document.documentElement.classList.add('dark')
@@ -30,16 +36,7 @@ export default function RootLayout({ children }) {
               document.documentElement.classList.remove('dark')
             }
           `}
-        </script>
-      </Head>
-      <body>
-        <main className={`${montserrat.variable} font-mont bg-light w-full min-h-screen dark:bg-dark`}>
-          {/* <NavBar /> */}
-          {/* <AnimatePresence mode='wait'> */}
-            {children}
-          {/* </AnimatePresence> */}
-          {/* <Footer /> */}
-        </main>
+        </script> */}
       </body>
     </html>
   )
