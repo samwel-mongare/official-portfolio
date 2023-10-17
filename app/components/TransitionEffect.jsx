@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 const TransitionEffect = () => {
   return (
-    <AnimatePresence mode='wait'>
+    <>
       <motion.div className="fixed top-0 bottom-0 right-full w-screen h-screen z-[45] bg-dark
         flex justify-center items-center text-9xl text-light font-bold uppercase
       " 
@@ -38,7 +38,7 @@ const TransitionEffect = () => {
         animate={{ x: 0, width: 0 }}
         transition={{ delay:0.4, duration: 0.6, ease: "easeInOut" }}
       />
-    </AnimatePresence>
+    </>
   )
 }
 

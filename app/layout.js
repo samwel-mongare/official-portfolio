@@ -1,7 +1,7 @@
 "use client"
 
 import '@/globals.css'
-import { AnimatePresence } from 'framer-motion';
+// import { AnimatePresence } from 'framer-motion';
 import { Montserrat } from "next/font/google";
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
@@ -39,9 +39,9 @@ export default function RootLayout({ children }) {
       <body>
         <main className={`${montserrat.variable} font-mont bg-light w-full min-h-screen dark:bg-dark`}>
           <NavBar />
-          <AnimatePresence mode='wait'>
+          {/* <AnimatePresence mode='wait'> */}
             {children}
-          </AnimatePresence>
+          {/* </AnimatePresence> */}
           <Footer />
         </main>
         {/* <script id='theme-switcher' strategy="beforeInteractive">

@@ -11,7 +11,6 @@ import Skills from "@/components/Skills";
 import { myBiography } from "../../dataLibrary/myInformation";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
-import TransitionEffect from "@/components/TransitionEffect";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -49,8 +48,6 @@ const About = () => {
         <title>Samwel | About Page</title>
         <meta name="description" content="About Samwel Mongare. Kenyan background and experience as a software developer" />
       </Head>
-
-      <TransitionEffect />
 
       <main className='flex w-full flex-col items-center justify-center
       dark:text-light

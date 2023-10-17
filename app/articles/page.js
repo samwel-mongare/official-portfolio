@@ -8,7 +8,6 @@ import Link from 'next/link';
 import { motion, useMotionValue } from 'framer-motion';
 import { useRef } from 'react';
 import myArticles from '../../dataLibrary/myArticles';
-import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
 
@@ -99,8 +98,6 @@ const articles = () => {
         <title>Samwel | Articles Page</title>
         <meta name="description" content="Sammy Mongare is a software developer and a tech enthusiast. He is a self-taught developer who is passionate about web development and mobile development." />
       </Head>
-
-      <TransitionEffect />
 
       <main className="w-full mb-16 flex flex-col justify-center items-center overflow-hidden dark:text-light">
         <Layout className='pt-16'>
