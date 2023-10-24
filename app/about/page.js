@@ -46,9 +46,9 @@ const About = () => {
             <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
             <Image src={profilePic} alt="Samwel Mongare" className="w-full h-auto rounded-2xl" priority 
               sizes={`
-                (max-width: 767px) 100vw,
-                (max-width: 1200px) 50vw,
-                33vw`} />
+                (max-width: 767px) 80vw,
+                (max-width: 1200px) 40vw,
+                25vw`} />
           </div>
             <div className="col-span-2 flex flex-col items-end justify-between h-3/4 xl:flex-row xl:col-span-8
              xl:h-auto xl:items-center md:order-3"> 
