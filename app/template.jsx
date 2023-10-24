@@ -1,7 +1,6 @@
 "use client"
 
-import { AnimatePresence, motion } from "framer-motion"
-import TransitionEffect from "./components/TransitionEffect"
+import { AnimatePresence, motion } from "framer-motion";
 
 const variants = {
   hidden: { opacity: 0, x: -200, y: 0 },
@@ -11,10 +10,6 @@ const variants = {
 
 export default function Template({ children }) {
   return (
-    // <AnimatePresence mode='wait'>
-    //   <TransitionEffect />
-    //   {children}
-    // </AnimatePresence>
     <AnimatePresence mode="wait" initial={true}>
       <motion.main
       initial="hidden"

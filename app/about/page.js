@@ -27,15 +27,15 @@ const About = () => {
         <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
           <div className="col-span-3 flex flex-col justify-start items-start xl:col-span-4 md:order-2 md:col-span-8">
             <h2 className="text-large font-bold uppercase mb-4 text-dark/75 dark:text-light/75 ">Biography</h2>
-            <p className="font-medium">
+            <p className="font-medium text-lg xl:text-base">
              {myBiography[0]}
             </p>
 
-            <p className="font-medium my-4">
+            <p className="font-medium my-4 text-lg xl:text-base">
               {myBiography[1]}
             </p>
 
-            <p className="font-medium">
+            <p className="font-medium text-lg xl:text-base">
               {myBiography[2]}
             </p>
           </div>

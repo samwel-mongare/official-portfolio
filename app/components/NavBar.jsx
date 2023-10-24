@@ -10,14 +10,13 @@ import { usePathname } from "next/navigation";
 const NavBar = () => {
   const [ mode, setMode ] = useThemeSwitcher();
   const [ isOpen, setIsOpen ] = useState(false);
-  const pathname = usePathname();
 
   const handleClick = () => {
     setIsOpen(!isOpen);
   }
 
   return (
-    <header className={`${pathname === "/" ? 'hidden' : 'flex'} w-full px-32 py-8 font-medium items-center justify-between dark:text-light relative z-10
+    <header className={`flex w-full px-32 py-8 font-medium items-center justify-between dark:text-light relative z-10
     lg:px-16 md:px-12 sm:px-8`}>
 
     <button className="flex-col justify-center items-center hidden lg:flex" onClick={handleClick}>
