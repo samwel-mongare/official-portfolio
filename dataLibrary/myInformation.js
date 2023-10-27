@@ -40,8 +40,8 @@ export const mySkills = [
   },
   {
     name: 'Figma',
-    x: "10vw",
-    y: "-25vw",
+    x: "22vw",
+    y: "-23vw",
   },
   {
     name: 'Web Design',

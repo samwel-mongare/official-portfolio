@@ -4,7 +4,7 @@ import AnimatedText from "@/components/AnimatedText"
 import Layout from "@/components/Layout"
 import Head from "next/head"
 import Image from "next/image"
-import profilePic from '../../public/images/profile/developer-pic-2.jpg';
+import profilePic from '../../public/images/profile/developer-pic-2.png';
 import Skills from "@/components/Skills";
 import { myBiography } from "../../dataLibrary/myInformation";
 import Experience from "@/components/Experience";
@@ -23,19 +23,19 @@ const About = () => {
       dark:text-light
       '>
         <Layout className="pt-16">
-        <AnimatedText text={"Passion Fuels Purpose"} className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
+        <AnimatedText text={"Passion Fuels Purpose"} className='mb-16 lg:!text-6xl sm:!text-5xl xs:!text-4xl sm:mb-8' />
         <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
           <div className="col-span-3 flex flex-col justify-start items-start xl:col-span-4 md:order-2 md:col-span-8">
             <h2 className="text-large font-bold uppercase mb-4 text-dark/75 dark:text-light/75 ">Biography</h2>
-            <p className="font-medium text-lg xl:text-base">
+            <p className="font-medium text-lg 2xl:text-base">
              {myBiography[0]}
             </p>
 
-            <p className="font-medium my-4 text-lg xl:text-base">
+            <p className="font-medium my-4 text-lg 2xl:text-base">
               {myBiography[1]}
             </p>
 
-            <p className="font-medium text-lg xl:text-base">
+            <p className="font-medium text-lg 2xl:text-base">
               {myBiography[2]}
             </p>
           </div>

@@ -40,7 +40,7 @@ const MobileMenu = ({ mode, setMode, isOpen, handleClick }) => {
         <CustomLink toggle={handleClick} href= "/" title= "Home" className= "" />
         <CustomLink toggle={handleClick} href= "/about" title= "About" className= "" />
         <CustomLink toggle={handleClick} href= "/projects" title= "Projects" className= "" />
-        <CustomLink toggle={handleClick} href= "/articles" title= "Articles" className= "" />
+        {/* <CustomLink toggle={handleClick} href= "/articles" title= "Articles" className= "" /> */}
       </nav>
       
       <nav className="flex items-center justify-center flex-wrap mt-2">

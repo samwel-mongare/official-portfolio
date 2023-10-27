@@ -5,7 +5,6 @@ import Logo from "./Logo"
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 import DesktopMenu from "./DesktopMenu";
 import MobileMenu from "./MobileMenu";
-import { usePathname } from "next/navigation";
 
 const NavBar = () => {
   const [ mode, setMode ] = useThemeSwitcher();
