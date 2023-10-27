@@ -1,53 +1,40 @@
-import project1 from '../public/images/projects/crypto-screener-cover-image.jpg';
+import project1 from '../public/images/projects/space-travelers-project.png';
+import project2 from '../public/images/projects/bellfeeds.png';
+import project3 from '../public/images/projects/acewriters.png';
+import project4 from '../public/images/projects/bar-in-motion-landing-page.png';
 
 const myProjects = [
   {
-    title: 'Crypto Screener Application',
-    summary: 'A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency.',
-    github: '/',
-    link: '/',
+    title: 'Space Travelers Hub',
+    summary: 'A feature-rich  web application that facilitates booking rockets and join selected space missions. It is built for a company that offers both commercial and scientific space travel services. The application also works with real live data from the SpaceX API.',
+    github: 'https://github.com/Mosams/space_travellers',
+    link: 'https://space-traveler-s-hub.netlify.app/',
     image: project1,
     type: 'Featured Project',
   },
   {
-    title: 'React Portfolio Website',
+    title: 'Bellfeeds Website',
     summary: 'A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive.',
-    github: '/',
-    link: '/',
-    image: project1,
+    github: 'https://github.com/Mosams',
+    link: 'https://conwaybellfield.co.ke/',
+    image: project2,
     type: 'Project',
   },
   {
-    title: 'JavaScript Quiz App',
+    title: 'AceWriters Website',
     summary: 'A JavaScript Quiz App using HTML, CSS, and JavaScript. It has a timer, score counter, and a progress bar. It is mobile responsive.',
-    github: '/',
-    link: '/',
-    image: project1,
+    github: 'https://github.com/Mosams',
+    link: 'https://acewriters254.com/',
+    image: project3,
     type: 'Project',
   },
   {
-    title: 'Rails Realestate App',
-    summary: 'A real estate app using Ruby on Rails. It has a user authentication system, admin panel, and a search feature.',
-    github: '/',
-    link: '/',
-    image: project1,
+    title: 'Bar in Motion Website',
+    summary: 'This is a BAR IN MOTION website project created as per the Cindy Shin website design in Behance. The website project is in regard to an event and the website communicates important details about the event and more about the host of the event. (BAR IN MOTION INC.). Built with JavaScript, HTML and CSS. ',
+    github: 'https://github.com/Mosams/Module-One-Capstone-Project',
+    link: 'https://mosams.github.io/Module-One-Capstone-Project/',
+    image: project4,
     type: 'Featured Project',
-  },
-  {
-    title: 'React Todo App',
-    summary: 'A todo app using React JS. It has a user authentication system, admin panel, and a search feature.',
-    github: '/',
-    link: '/',
-    image: project1,
-    type: 'Project',
-  },
-  {
-    title: 'Rails Recipe App',
-    summary: 'A recipe app using Ruby on Rails. It has a user authentication system, admin panel, and a search feature.',
-    github: '/',
-    link: '/',
-    image: project1,
-    type: 'Project',
   },
 ];
 
