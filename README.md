@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# Samwel Mongare Portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+> This is my portfolio website, it contains my projects, skills, and contact information. It is a responsive website that can be viewed on any device. It shows my growth journey as a web developer and my future aspirations. It also contains my contact information and links to my social media accounts.
+
+## Mobile Version screenshot
+
+![screenshot](./app_screenshot.png)
+
+## Desktop Version screenshot
+
+![screenshot](./app_screenshot2.png)
+
+Additional description about the project and its features.
+
+## Live Demo
+
+[Live Demo Link](https://github.com/Mosams/official-portfolio.git)
+
+## Built With
+
+- HTML
+- CSS
+- JAVASCRIPT
+
+## How to Setup
+> You can simply clone or download [this repository](https://github.com/Mosams/official-portfolio.git), and use your favoright browser or code editor to run this program.
+
+- To open the project after download, simply double click the index.html file
+
+- To open this project using vs code ( for this example) or your favorite code editor, you can follow the guide below:
+> in your cmd or command line navigate to where this project is located, then;
+```cmd
+cd microverse_portfolio_project 
+```
+> thereafter run
+```cmd
+code .
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Authors
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+👤 **Author1**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- GitHub: [@githubhandle](https://github.com/Mosams/)
+- Twitter: [@twitterhandle](https://twitter.com/sam_mongare)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sammy-mongare-b8288310b/)
 
-## Learn More
+## 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions, issues, and feature requests are welcome!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to check the [issues page](../../issues/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Show your support
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Give a ⭐️ if you like this project!
