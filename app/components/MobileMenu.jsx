@@ -1,6 +1,5 @@
 import { usePathname, useRouter } from "next/navigation"
 import { motion } from "framer-motion";
-import Link from "next/link"
 import { DribbbleIcon, GithubIcon, LinkedInIcon, MoonIcon, PinterestIcon, SunIcon, TwitterIcon } from "./Icons"
 
 

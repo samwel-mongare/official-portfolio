@@ -1,7 +1,7 @@
-import project1 from '../assets/images/projects/space-travelers-project.png';
-import project2 from '../assets/images/projects/bellfeeds.png';
-import project3 from '../assets/images/projects/acewriters.png';
-import project4 from '../assets/images/projects/bar-in-motion-landing-page.png';
+import project1 from '@/assets/images/projects/space.png';
+import project2 from '@/assets/images/projects/bell.png';
+import project3 from '@/assets/images/projects/ace.png';
+import project4 from '@/assets/images/projects/bar.png';
 
 const myProjects = [
   {
