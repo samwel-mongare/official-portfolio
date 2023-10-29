@@ -70,15 +70,6 @@ const myArticles = [
     type: 'Article',
     date: '3rd December 2022',
   },
-  {
-    title: 'What Is Higher Order Component (Hoc) In React?',
-    summary: 'Learn what is Higher Order Component (HOC) in ReactJS. Follow this step-by-step guide to learn what is Higher Order Component (HOC) in ReactJS.',
-    time: '10 min read',
-    link: '/',
-    img: hocImage,
-    type: 'Article',
-    date: '3rd December 2022',
-  },
 ]
 
 export default myArticles;
