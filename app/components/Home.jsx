@@ -2,12 +2,12 @@
 
 import Layout from '@/components/Layout';
 import Image from 'next/image';
-import headerImage from '../../public/images/profile/developer-pic-1.png';
+import headerImage from '../assets/images/profile/developer-pic-1.png';
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
 import HireMe from '@/components/HireMe';
-import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg';
+import lightBulb from '../assets/images/svgs/miscellaneous_icons_1.svg';
 
 const HomePage = () => {
   return (

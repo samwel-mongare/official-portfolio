@@ -5,7 +5,7 @@ import '@/globals.css'
 import { Montserrat } from "next/font/google";
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
-import metaInfo from '../dataLibrary/metaInfo'
+import metaInfo from './dataLibrary/metaInfo'
 
 const montserrat = Montserrat(
   {

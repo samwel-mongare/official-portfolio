@@ -1,11 +1,11 @@
-import paginationImage from '../public/images/articles/pagination component in reactjs.jpg'; 
-import smoothScrollingImage from '../public/images/articles/smooth scrolling in reactjs.png';
-import formValidationImage from '../public/images/articles/form validation in reactjs using custom react hook.png';
-import createLoadingScreenImage from '../public/images/articles/create loading screen in react js.jpg';
-import createModalImage from '../public/images/articles/create modal component in react using react portals.png';
-import createTodoListImage from '../public/images/articles/todo list app built using react redux and framer motion.png';
-import reduxSimplifiedImage from '../public/images/articles/What is Redux with easy explanation.png';
-import hocImage from '../public/images/articles/What is higher order component in React.jpg';
+import paginationImage from '../assets/images/articles/pagination component in reactjs.jpg'; 
+import smoothScrollingImage from '../assets/images/articles/smooth scrolling in reactjs.png';
+import formValidationImage from '../assets/images/articles/form validation in reactjs using custom react hook.png';
+import createLoadingScreenImage from '../assets/images/articles/create loading screen in react js.jpg';
+import createModalImage from '../assets/images/articles/create modal component in react using react portals.png';
+import createTodoListImage from '../assets/images/articles/todo list app built using react redux and framer motion.png';
+import reduxSimplifiedImage from '../assets/images/articles/What is Redux with easy explanation.png';
+import hocImage from '../assets/images/articles/What is higher order component in React.jpg';
 
 
 const myArticles = [

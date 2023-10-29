@@ -4,9 +4,9 @@ import AnimatedText from "@/components/AnimatedText"
 import Layout from "@/components/Layout"
 import Head from "next/head"
 import Image from "next/image"
-import profilePic from '../../public/images/profile/developer-pic-2.png';
+import profilePic from '../assets/images/profile/developer-pic-2.png';
 import Skills from "@/components/Skills";
-import { myBiography } from "../../dataLibrary/myInformation";
+import { myBiography } from "../dataLibrary/myInformation";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import AnimatedNumbers from "@/components/AnimatedNumbers"

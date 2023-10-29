@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { mySkills } from '../../dataLibrary/myInformation';
+import { mySkills } from '../dataLibrary/myInformation';
 
 const Skill = ({ name, x, y }) => {
   return (
