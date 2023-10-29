@@ -6,7 +6,7 @@ import Layout from '@/components/Layout';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import myProjects from '../../dataLibrary/myProjects';
+import myProjects from '../dataLibrary/myProjects';
 import { motion } from 'framer-motion';
 
 const FramerImage = motion(Image);

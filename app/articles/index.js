@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import { motion, useMotionValue } from 'framer-motion';
 import { useRef } from 'react';
-import myArticles from '../../dataLibrary/myArticles';
+import myArticles from '../dataLibrary/myArticles';
 
 const FramerImage = motion(Image);
 
