@@ -73,74 +73,76 @@ export const mySkills = [
 export const myExperience = [
   {
     title: 'Software Engineer',
-    company: 'Google',
-    companyLink: 'https://google.com',
-    location: 'Mountain View, CA',
+    company: 'BellFeeds',
+    companyLink: 'https://conwaybellfield.co.ke/',
+    location: 'Nairobi, Kenya',
     date: '2022-Present',
-    description: `Worked on a team responsible for developing new features for Google's
-    search engine, including improving the accuracy and relevance of search results and
-    developing new tools for data analysis and visualization.`
+    description: `Developed and implemented a modern, user-friendly front-end for the official Bellfeeds website using React, Tailwindcss, and Framer Motion.
+    Increased website loading speed by 40% by optimizing code and implementing performance-enhancing techniques.
+    Implemented API calls from the headless CMS eCommerce to link the front end and back end of the website, resulting in a seamless user experience and improved functionality.
+    `
   },
   {
-    title: 'Intern',
-    company: 'Facebook',
-    companyLink: 'https://facebook.com',
-    location: 'Menlo Park, CA',
-    date: 'Summer 2021',
-    description: `Worked on a team responsible for developing a new mobile app feature that allowed users to create and
-    share short-form video content, including designing and implementing a new user interface and developing
-    the backend infrastructure to support the feature.`
+    title: 'Code Reviewer',
+    company: 'Microverse',
+    companyLink: 'https://www.microverse.org/',
+    location: 'California, United States',
+    date: '2022-Present',
+    description: `Provided detailed feedback and suggestions during code reviews, leading to a 50% improvement in coding skills for team members and junior developers.
+    Mentored junior developers on best practices for writing clean, efficient code, resulting in a 15% increase in code quality scores.
+    Collaborated with the development team on collaborative projects to establish coding standards and guidelines, leading to a 20% improvement in overall code readability.
+    `
   },
   {
-    title: 'Software Developer',
-    company: 'Amazon',
-    companyLink: 'https://amazon.com',
-    location: 'Seattle, WA',
+    title: 'Founder/Project Manager',
+    company: 'Digital Chicken Farming',
+    companyLink: 'https://github.com/Mosams',
+    location: 'Eldoret, Kenya',
     date: '2020-2021',
-    description: `Worked on a team responsible for developing Amazon's mobile app, including implementing new features such
-    as product recommendations and user reviews, and optimizing the app's performance and reliability.`
+    description: `Implemented an efficient website ordering system that streamlined the purchasing process for customers, resulting in a 50% reduction in order processing time.
+    Developed and executed a comprehensive marketing strategy for the free-range chicken project, resulting in a 300% increase in online orders within the first month.
+    Collaborated with local farmers and suppliers to source high-quality chicken eggs and roosters, ensuring a consistent supply chain and customer satisfaction.
+    `
   },
   {
-    title: 'Software Developer Intern',
-    company: 'Microsoft',
-    companyLink: 'https://microsoft.com',
-    location: 'Redmond, WA',
-    date: 'Summer 2019',
-    description: `Worked on a team responsible for developing new features for Microsoft's Windows operating system,
-    including implementing a new user interface for a system settings panel and optimizing the performance of
-    a core system component.`
-  },
-  {
-    title: 'Teaching Assistant',
-    company: 'MIT',
-    companyLink: 'https://mit.edu',
-    location: 'Massachusetts Ave, Cambridge, MA',
-    date: 'Fall 2018',
-    description: `Assisted in teaching a course on computer programming, held office hours to help students with assignments,
-    and graded exams and assignments.`
-  },
+    title: 'IT Support Technician',
+    company: 'Chebut Tea Factory',
+    companyLink: 'https://ktdateas.com/chebut-tea-factory/',
+    location: 'Kapsabet, Kenya',
+    date: 'June 2019-August 2019',
+    description: `Conducted troubleshooting of LAN/WAN networks, resolving connectivity issues for 50+ employees and reducing downtime by 30%.
+    Performed data entry using the Chai-Pro System with 100% accuracy, ensuring seamless record-keeping and minimizing errors.
+    Identified and implemented new software and hardware solutions to improve system performance, resulting in a 20% increase in overall efficiency.
+    Identified and implemented software upgrades to improve system performance, resulting in a 20% increase in overall efficiency.
+    Conducted extensive testing of new hardware components, leading to the selection and installation of equipment that reduced system downtime by 15%.
+    `
+  }
 ]
 
 export const myEducation = [
   {
-    type: 'Bachelor Of Science In Computer Science',
-    time: '2016-2020',
-    place: 'Massachusetts Institute Of Technology (MIT)',
-    info: `Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial
-    Intelligence.`
+    type: 'Full Stack Web Development',
+    time: 'Oct 2021-Sep 2022',
+    place: 'Microverse',
+    info: `Implemented remote pair programming methodologies using GitHub and industry-standard git-flow to effectively collaborate with international remote developers on a daily basis while ensuring seamless code integration.
+    Utilized Ruby, Rails, JavaScript, React, and Redux to develop multiple projects showcasing proficiency in full-stack web development.
+    Mastered algorithms, data structures, and full-stack development through 1300+ hours of dedicated study, resulting in a deep understanding of key programming concepts and techniques.
+    `
   },
   {
-    type: 'Master Of Computer Science',
-    time: '2020-2022',
-    place: 'Stanford University',
-    info: `Completed a master's project on deep learning, developing a new neural network architecture for natural
-    language understanding.`
+    type: 'Bachelor in Business Information Technology (Second Class Upper)',
+    time: '2015-2019',
+    place: 'Multimedia University of Kenya',
+    info: `Utilized my blend of technical knowledge and business acumen to successfully complete projects that required a strong understanding of both fields, resulting in improved efficiency and effectiveness.
+    Acquired technical proficiency in networking units, digital logic, and programming languages such as C++ and Java during my studies in Business Information Technology.
+    Developed a comprehensive understanding of business operations and management through coursework in accounting, marketing, and business management, enabling me to effectively analyze and address organizational challenges.
+    `
   },
   {
     type: 'Online Coursework',
-    time: '2016-2020',
-    place: 'Coursera And EdX',
-    info: `Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine
-    Learning Engineering.`
+    time: '2019-Present',
+    place: 'Coursera And Udemy',
+    info: `Completed coursework in web development, including HTML, CSS, JavaScript, and React, resulting in a strong foundation in front-end development.
+    Completed coursework in AWS, including EC2, S3, and RDS, resulting in a strong foundation in cloud computing.`
   },
 ]

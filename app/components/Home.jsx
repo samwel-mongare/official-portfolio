@@ -31,7 +31,7 @@ const HomePage = () => {
               Explore my latest profects and articles, showcasing my expertise in React.js and web development.
             </p>
             <div className="flex items-center self-start mt-2 lg:self-center">
-              <Link href="/dummy.pdf" target="_blank"
+              <Link href="/resume.pdf" target="_blank"
                 className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light
                  hover:text-dark transition-all border-2 border-solid border-transparent
                  md:p-2 md:px-4 md:text-base
@@ -39,7 +39,7 @@ const HomePage = () => {
                  dark:bg-light dark:hover:text-light dark:hover:border-light dark:border-light dark:hover:bg-dark"
                  download="true"
               >Resume <LinkArrow className="w-6 m-1" /></Link>
-              <Link href="mailto.abc@gmail.com" target="_blank"
+              <Link href="https://wa.me/+254762992818" target="_blank"
                 className="ml-5 flex items-center bg-light text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-dark
                 hover:text-light transition-all border-2 border-solid border-dark hover:border-transparent dark:text-light
                dark:hover:text-light dark:border-light dark:bg-dark md:p-2 md:px-4 md:text-base "

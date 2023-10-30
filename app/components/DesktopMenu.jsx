@@ -1,7 +1,7 @@
 import { usePathname } from "next/navigation"
 import { motion } from "framer-motion";
 import Link from "next/link"
-import { DribbbleIcon, GithubIcon, LinkedInIcon, MoonIcon, PinterestIcon, SunIcon, TwitterIcon } from "./Icons"
+import { AngelListIcon, DribbbleIcon, GithubIcon, LinkedInIcon, MoonIcon, SunIcon, TwitterIcon, UpworkIcon } from "./Icons"
 
 
 const CustomLink = ({ href, title, className }) => {
@@ -30,19 +30,19 @@ const DesktopMenu = ({ mode, setMode }) => {
       <nav className="flex items-center justify-center flex-wrap">
         <motion.a whileHover={{
           y: -2
-        }} className="w-6 mr-3" whileTap={{scale: 0.9}} href="https://twitter.com" target="_blank"><TwitterIcon /></motion.a>
+        }} className="w-6 mr-3" whileTap={{scale: 0.9}} href="https://twitter.com/sam_mongare" target="_blank"><TwitterIcon /></motion.a>
         <motion.a whileHover={{
           y: -2
-        }} className="w-6 mx-3" whileTap={{scale: 0.9}} href="https://twitter.com" target="_blank"><GithubIcon /></motion.a>
+        }} className="w-6 mx-3" whileTap={{scale: 0.9}} href="https://github.com/Mosams" target="_blank"><GithubIcon /></motion.a>
         <motion.a whileHover={{
           y: -2
-        }} className="w-6 mx-3" whileTap={{scale: 0.9}} href="https://twitter.com" target="_blank"><LinkedInIcon /></motion.a>
+        }} className="w-6 mx-3" whileTap={{scale: 0.9}} href="https://www.linkedin.com/in/samwel-mongare/" target="_blank"><LinkedInIcon /></motion.a>
         <motion.a whileHover={{
           y: -2
-        }} className="w-6 mx-3 dark:bg-light rounded-full" whileTap={{scale: 0.9}} href="https://twitter.com" target="_blank"><PinterestIcon /></motion.a>
+        }} className="w-6 mx-2 rounded-full" whileTap={{scale: 0.9}} href="https://www.upwork.com/freelancers/~017927a169e62dec08?viewMode=1" target="_blank"><UpworkIcon /></motion.a>
         <motion.a whileHover={{
           y: -2
-        }} className="w-6 ml-3" whileTap={{scale: 0.9}} href="https://twitter.com" target="_blank"><DribbbleIcon /></motion.a>
+        }} className="w-6 p-1 ml-3 bg-white rounded-full" whileTap={{scale: 0.9}} href="https://wellfound.com/u/samwel-mongare" target="_blank"><AngelListIcon /></motion.a>
 
         <button
          onClick={() => setMode(mode === "light" ? "dark" : "light")}
