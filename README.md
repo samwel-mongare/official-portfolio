@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Mosams/official-portfolio.git)
+[Live Demo Link](samwel-mongare-az1i0c9d4-mongaresams-gmailcom.vercel.app)
 
 ## Built With
 
