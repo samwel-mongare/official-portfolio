@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://samwel-mongare-az1i0c9d4-mongaresams-gmailcom.vercel.app)
+[Live Demo Link](https://samwel-mongare.vercel.app/)
 
 ## Built With
 
