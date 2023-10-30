@@ -30,7 +30,7 @@ const NavBar = () => {
       <DesktopMenu mode={mode} setMode={setMode} isOpen={isOpen} />
       <MobileMenu mode={mode} setMode={setMode} isOpen={isOpen} handleClick={handleClick} />
 
-      <div className="absolute left-[40%] md:left-[38%] top-2 translate-x-[50%]">
+      <div className="absolute left-[45%] md:left-[38%] top-2 translate-x-[50%]">
         <Logo />
       </div>
     </header>
