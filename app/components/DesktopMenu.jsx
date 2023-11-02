@@ -42,7 +42,7 @@ const DesktopMenu = ({ mode, setMode }) => {
         }} className="w-6 mx-2 rounded-full" whileTap={{scale: 0.9}} href="https://www.upwork.com/freelancers/~017927a169e62dec08?viewMode=1" target="_blank"><UpworkIcon /></motion.a>
         <motion.a whileHover={{
           y: -2
-        }} className="w-6 p-1 ml-3 dark:bg-white rounded-full" whileTap={{scale: 0.9}} href="https://wellfound.com/u/samwel-mongare" target="_blank"><AngelListIcon /></motion.a>
+        }} className="w-6 p-1 ml-3 dark:bg-light/75 rounded-full" whileTap={{scale: 0.9}} href="https://wellfound.com/u/samwel-mongare" target="_blank"><AngelListIcon /></motion.a>
 
         <button
          onClick={() => setMode(mode === "light" ? "dark" : "light")}
