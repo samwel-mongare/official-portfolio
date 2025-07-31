@@ -3,8 +3,8 @@ import project2 from "@/assets/images/projects/bell.png";
 import project3 from "@/assets/images/projects/ace.png";
 // import project4 from "@/assets/images/projects/winlux.png";
 import project5 from "@/assets/images/projects/bar.png";
-import project6 from "@/assets/images/projects/cognipal.png";
-import project7 from "@/assets/images/projects/space.png";
+import project6 from "@/assets/images/projects/poweredanalytics.png";
+import project7 from "@/assets/images/projects/suesnaturals.png";
 
 const myProjects = [
   {
@@ -21,7 +21,7 @@ const myProjects = [
     summary:
       "A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive.",
     github: "https://github.com/Mosams",
-    link: "https://conwaybellfield.co.ke/",
+    link: "https://bellfeedsfarmcare.com/",
     image: project2,
     type: "Project",
   },
@@ -44,11 +44,11 @@ const myProjects = [
   //   type: "Featured Project",
   // },
   {
-    title: "Space Travelers Hub",
+    title: "Sue's Naturals E-commerce",
     summary:
-      "A feature-rich  web application that facilitates booking rockets and join selected space missions. It is built for a company that offers both commercial and scientific space travel services. The application also works with real live data from the SpaceX API.",
-    github: "https://github.com/Mosams/space_travellers",
-    link: "https://space-travellers-delta.vercel.app/",
+      "Sue's Naturals is an e-commerce website that I created for a client who sells natural products. The website is built with React, Tailwind CSS, and Framer Motion. It features a clean and modern design, with smooth animations and transitions. The website is fully responsive and works well on all devices.",
+    github: "",
+    link: "https://suesnaturals.com/",
     image: project7,
     type: "Featured Project",
   },
@@ -57,15 +57,16 @@ const myProjects = [
     summary:
       "This is a BAR IN MOTION website project created as per the Cindy Shin website design in Behance. The website project is in regard to an event and the website communicates important details about the event and more about the host of the event. (BAR IN MOTION INC.). Built with JavaScript, HTML and CSS. ",
     github: "https://github.com/Mosams/Module-One-Capstone-Project",
-    link: "https://mosams.github.io/Module-One-Capstone-Project/",
+    link: "https://samwel-mongare.github.io/Module-One-Capstone-Project/",
     image: project5,
     type: "Project",
   },
   {
-    title: "Cognipal Landing Page",
-    summary: "A simple landing page for Cognipal AI company for real estate",
+    title: "Powered Analytics",
+    summary:
+      "Powered Analytics is a data analytics platform that provides insights into user behavior and engagement. It is built with React, Next.js, and Tailwind CSS. The platform features a clean and modern design, with smooth animations and transitions. It is fully responsive and works well on all devices.",
     github: "https://github.com/Mosams/",
-    link: "https://cognipal.vercel.app/",
+    link: "https://powered-analytics.vercel.app/",
     image: project6,
     type: "Project",
   },
